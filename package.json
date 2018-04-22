@@ -4,7 +4,8 @@
   "description": "Social Network fo Developers",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start.js"
   },
   "author": "Neel Mistry",
   "license": "MIT",
@@ -19,6 +20,8 @@
     "validator": "^9.4.1"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.7.0",
     "nodemon": "^1.17.3"
