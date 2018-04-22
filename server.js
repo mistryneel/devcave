@@ -1,9 +1,9 @@
-const express = require("express");
+const express = require("express")
 
-const app = express();
+const app = express()
 
-app.get("/", (req, res) => res.send("Hello World"));
+app.get("/", (req, res) => res.send("Hello World"))
 
-const port = 5000;
+const port = 5000
 
-app.listen(port, () => console.log(`Server running on port ${port}`));
+app.listen(port, () => console.log(`Server running on port ${port}`))
